@@ -1,3 +1,39 @@
-h1 {
-  color: green;
+body {
+    background-color:darkgray;
+}
+
+h1{
+    color: green;
+    text-align: center;
+    font-family: verdana;
+    font-size: 100px;
+}
+h2{
+    color: green;
+    text-align: center;
+    font-family: verdana;
+    font-size: 100px;
+}
+h3 {
+    color: green;
+    text-align: center;
+    font-family: verdana;
+    font-size: 100px;
+}
+h4 {
+    color: green;
+    text-align: center;
+    font-family: verdana;
+    font-size: 100px;
+}
+
+p{
+    color: lightseagreen;
+    font-family: verdana;
+    font-size: 50px;
+}  
+
+#id {
+    color: orange;
+    font-family: verdana;
 }

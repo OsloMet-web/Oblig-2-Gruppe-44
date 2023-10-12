@@ -1,32 +1,34 @@
 
-
 body {
     background-color:lightgrey;
 }
-
 h1{
     color: darkblue;
     text-align: center;
     font-family: verdana;
     size: 300%;
+    font-size: 200%
 }
 h2{
     color: darkblue;
     text-align: center;
     font-family: verdana;
-    size: 150%;
+    size: 150%; 
+    font-size: 150%
 }
 h3 {
     color: darkblue;
     text-align: center;
     font-family: verdana;
     size: 300%;
+    font-size: 100%
 }
 h4 {
     color: darkblue;
     text-align: center;
     font-family: verdana;
     size: 300%;
+    font-size: 100%
 }
 
 h5 {
@@ -34,6 +36,7 @@ h5 {
     text-align: center;
     font-family: verdana;
     size: 500%;
+    font-size: 100%
 }
 
 p{
@@ -50,10 +53,26 @@ ul {
     size: 150%; 
 }
 
-p #id mcunning {
-    color: orange;
+.author {
+    text-decoration-color: orange;
     font-family: verdana;
     size: 150%;
+}
+
+.contentbox {
+    width: 500px;
+    padding: 30px;
+    border: 20px;
+    margin: 20px;
+    text-align: center;    
+}
+
+.listbox{
+    width: 500px;
+    padding: 5px;
+    border: 10px;
+    margin: 10px;
+    text-align: center;  
 }
 
 
@@ -66,16 +85,16 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 90%;
 }
 
 .box {
     background-color: beige;
     border-color: white;
-    width: 320px;
-    padding: 10px;
+    width: 1130px;
+    padding: 50px;
     border: 5px solid gray;
-    margin: 0;
+    margin: 20;
 } 
 
 footer p1 {
@@ -84,11 +103,15 @@ footer p1 {
     color: darkblue;
     text-align: right;
     font-family: verdana;
-
+    position: fixed;
+   
 }
+
 footer ul {
     size: 80%;
     color: black;
     text-align: left;
     font-family: verdana;
+    position: fixed;
+    
 }

@@ -115,10 +115,11 @@ img {
     text-align-last: center;
 } 
 
-footer p {
+footer {
     text-decoration-line: bold;
     size: 150%;
     color: darkblue;
+    background-color: white;
     text-align: right;
     font-family: verdana;
     position: fixed;
@@ -128,6 +129,7 @@ footer p {
 footer ul {
     size: 80%;
     color: black;
+    background-color: white;
     text-align: left;
     font-family: verdana;
     position: fixed;

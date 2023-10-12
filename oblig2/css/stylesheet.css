@@ -1,6 +1,4 @@
 
-<!-  >
-
 body {
     background-color:darkgray;
 }
@@ -9,34 +7,75 @@ h1{
     color: green;
     text-align: center;
     font-family: verdana;
-    font-size: 100px;
+    size: 300%;
 }
 h2{
     color: green;
     text-align: center;
     font-family: verdana;
-    font-size: 100px;
+    size: 300%;
 }
 h3 {
     color: green;
     text-align: center;
     font-family: verdana;
-    font-size: 100px;
+    size: 300%;
 }
 h4 {
     color: green;
     text-align: center;
     font-family: verdana;
-    font-size: 100px;
+    size: 300%;
 }
 
 p{
     color: lightseagreen;
     font-family: verdana;
-    font-size: 50px;
+    size: 150%;
 }  
 
 #id {
     color: orange;
     font-family: verdana;
+    size: 150%;
+}
+
+
+img {
+    border:1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+footer p1 {
+    size: 150%;
+    color: green;
+    text-align: right;
+    font-family: verdana;
+
+}
+footer p2 {
+    size: 100%;
+    color: lightseagreen;
+    text-align: right;
+    font-family: verdana;
+
+}
+footer p3 {
+    size: 100%;
+    color: lightseagreen;
+    text-align: right;
+    font-family: verdana;
+
+}
+footer p4 {
+    size: 100%;
+    color: lightseagreen;
+    text-align: right;
+    font-family: verdana;
+
 }

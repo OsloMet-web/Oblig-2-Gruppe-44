@@ -41,7 +41,7 @@ h5 {
 
 p{
     color: black;
-    text-align: left;
+    text-align: center;
     font-family: verdana;
     size: 150%;
 } 
@@ -60,13 +60,13 @@ ul {
 }
 
 .author {
-    text-decoration-color: orange;
+    text-decoration-color: orangered;
     font-family: verdana;
     size: 150%;
 }
 
+
 .contentbox {
-    
     width: 500px;
     padding: 30px;
     border: 20px;

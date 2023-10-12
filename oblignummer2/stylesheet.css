@@ -41,10 +41,17 @@ h5 {
 
 p {
     color: black;
-    text-align: left;
+    text-align: center;
     font-family: verdana;
     size: 150%;
+} 
+
+p1 {
+    color: darkblue;
+    font-family: verdana;
+    font-size: 100%;
 }
+
 ul {
     color: black;
     text-align: left;
@@ -68,6 +75,7 @@ ul {
     font-family: verdana;
     size: 150%;
 }
+
 
 .contentbox {
     width: 500px;

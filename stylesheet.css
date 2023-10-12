@@ -1,0 +1,117 @@
+
+body {
+    background-color:lightgrey;
+}
+h1{
+    color: darkblue;
+    text-align: center;
+    font-family: verdana;
+    size: 300%;
+    font-size: 200%
+}
+h2{
+    color: darkblue;
+    text-align: center;
+    font-family: verdana;
+    size: 150%; 
+    font-size: 150%
+}
+h3 {
+    color: darkblue;
+    text-align: center;
+    font-family: verdana;
+    size: 300%;
+    font-size: 100%
+}
+h4 {
+    color: darkblue;
+    text-align: center;
+    font-family: verdana;
+    size: 300%;
+    font-size: 100%
+}
+
+h5 {
+    color: darkblue;
+    text-align: center;
+    font-family: verdana;
+    size: 500%;
+    font-size: 100%
+}
+
+p{
+    color: black;
+    text-align: left;
+    font-family: verdana;
+    size: 150%;
+}  
+
+ul {
+    color: black;
+    text-align: left;
+    font-family: verdana;
+    size: 150%; 
+}
+
+.author {
+    text-decoration-color: orange;
+    font-family: verdana;
+    size: 150%;
+}
+
+.contentbox {
+    width: 500px;
+    padding: 30px;
+    border: 20px;
+    margin: 20px;
+    text-align: center;    
+}
+
+.listbox{
+    width: 500px;
+    padding: 5px;
+    border: 10px;
+    margin: 10px;
+    text-align: center;  
+}
+
+
+img {
+    size: 300px;
+    border-radius: 8px;
+    
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.box {
+    background-color: beige;
+    border-color: white;
+    width: 1130px;
+    padding: 50px;
+    border: 5px solid gray;
+    margin: 20;
+} 
+
+footer p1 {
+    text-decoration-line: bold;
+    size: 150%;
+    color: darkblue;
+    text-align: right;
+    font-family: verdana;
+    position: fixed;
+   
+}
+
+footer ul {
+    size: 80%;
+    color: black;
+    text-align: left;
+    font-family: verdana;
+    position: fixed;
+    
+}

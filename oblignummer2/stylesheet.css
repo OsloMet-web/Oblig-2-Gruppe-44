@@ -41,16 +41,10 @@ h5 {
 
 p{
     color: black;
-    text-align: center;
+    text-align: left;
     font-family: verdana;
     size: 150%;
-} 
-
-p1 {
-    color: darkblue;
-    font-family: verdana;
-    font-size: 100%;
-}
+}  
 
 ul {
     color: black;
@@ -60,11 +54,10 @@ ul {
 }
 
 .author {
-    text-decoration-color: orangered;
+    text-decoration-color: orange;
     font-family: verdana;
     size: 150%;
 }
-
 
 .contentbox {
     width: 500px;
@@ -82,11 +75,10 @@ ul {
     text-align: center;  
 }
 
-
 img {
     size: 300px;
     border-radius: 8px;
-    
+    transform: scale(1);
 }
 .center {
     display: block;
@@ -105,3 +97,20 @@ img {
     text-align-last: center;
 } 
 
+footer p1 {
+    text-decoration-line: bold;
+    size: 150%;
+    color: darkblue;
+    text-align: right;
+    font-family: verdana;
+    position: fixed;
+}
+
+footer ul {
+    size: 80%;
+    color: black;
+    text-align: left;
+    font-family: verdana;
+    position: fixed;
+    
+}

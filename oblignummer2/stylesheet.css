@@ -49,7 +49,7 @@ p{
 p1 {
     color: darkblue;
     font-family: verdana;
-    font-size: 200%;
+    font-size: 100%;
 }
 
 ul {
@@ -105,21 +105,3 @@ img {
     text-align-last: center;
 } 
 
-footer p1 {
-    text-decoration-line: bold;
-    size: 150%;
-    color: darkblue;
-    text-align: right;
-    font-family: verdana;
-    position: fixed;
-   
-}
-
-footer ul {
-    size: 80%;
-    color: black;
-    text-align: left;
-    font-family: verdana;
-    position: fixed;
-    
-}

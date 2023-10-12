@@ -59,10 +59,9 @@ ul {
     size: 150%; 
 }
 
-p author {
+.author {
     text-decoration-color: orangered;
     font-family: verdana;
-
     size: 150%;
 }
 

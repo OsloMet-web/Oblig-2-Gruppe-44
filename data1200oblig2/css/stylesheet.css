@@ -4,11 +4,19 @@ body {
     background-color:white;
 }
 
+/*The code of the elements h1-h5, p, and of the classes ".smallHead", ".list" and ".photocredit" 
+defines the how we have styled the text in our two webpages. Because we wanted to have similar styling of
+the headings and most of the paragraphs in the two pages, we choose to reuse the same element-names and not divide them into classes. 
+However, in order to distinguish some of the text from the rest and give it other styling, we created a class for the caption underneath 
+the image in our "ArstechnicaArticle2.html"-page. We made the class ".list" to style the lists of "pageNummer2.html" and the 
+"participants"-list in both the webpages to display the text and the points at the center. And we created the ".smallhead"-class
+to make a separated heading for the participants list.*/
+
 h1{
     color: darkblue;
     text-align: center;
     font-family: verdana;
-    font-size: 200%
+    font-size: 230%
 }
 h2{
     color: darkblue;
@@ -47,7 +55,7 @@ p {
     color: darkblue;
     text-align: center;
     font-family: verdana;
-    font-size: 150%;
+    font-size: 120%;
 }
 
 .list {
@@ -57,6 +65,22 @@ p {
     font-family: verdana;
     font-size: 100%; 
 }
+
+.photo-credit {
+    color: purple;
+    font-family: verdana;
+    text-align: left;
+    size: 150%;
+}
+    
+/*This code styles the link between the two webpages.*/
+.link{
+    display: block;
+    text-align: center;
+    font-size: 100%;
+    font-family: verdana;
+}
+
 
 
 /*The codes for the ".author" and ".author:hover"-classes 
@@ -111,7 +135,13 @@ the box defined in pageNummer2.html*/
 
 /* Underneath the "img"-element and and the ".center"-class from ArstenchinicaArticle2.html
 is used to style the image in the center of the webpage, give it a proper size
-and to make it scalable. We used the following source:
+and to make it scalable. 
+
+The style the image, we took inspiration from the following sources:
+      - w3schools (2023) "HOW TO - Rounded Images". Retrived 12.10.2023 from: https://www.w3schools.com/howto/howto_css_rounded_images.asp  
+      - w3schools (2023) "HOW TO - Center Images". Retrived 12.10.2023 from: https://www.w3schools.com/howto/howto_css_image_center.asp 
+
+To make the image scalable we used the following source:
 mdn web docs(2023). "Scale". Mozilla Developer. 
 Retrived 12.10.2023 from: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale#syntax*/
 
@@ -129,22 +159,6 @@ img {
 }
 
 
-.box {
-    background-color: beige;
-    border-color: white;
-    width: 1130px;
-    padding: 50px;
-    border: 5px solid gray;
-    margin: 20;
-    text-align-last: center;
-} 
 
-.photo-credit {
-    color: red;
-    font-family: verdana;
-    text-align: left;
-    size: 150%;
-}
-    
 
 

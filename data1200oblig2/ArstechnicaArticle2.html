@@ -3,7 +3,12 @@
 
 <head>
   <title>Hell freezes over, paint is better now!</title>
+
   <link rel="stylesheet" type="text/css" href="/data1200oblig2/css/stylesheet.css">
+  <!-- The code above connetcs our second html page to the styling in our stylesheet. The soucre of this code is:
+	Chris, K. (2022, 14.06) "How to Link CSS to HTML - Stylesheet File Linking". freeCodeCamp.org. Retrived 12.10.2023 
+	from:https://www.freecodecamp.org/news/how-to-link-css-to-html/-->
+
 </head>
 
 <body>
@@ -17,16 +22,26 @@
    <p:hover id="mcunning"> MARK CUNNINGMAN - <time class="date">OCT 1, 2023 00:00 AM</time></p>
   </div>
 
+  <!--In order to style the image the way we wanted (with rounded edges and make it centered) we created two 
+    classes for the image: "image" and "center". The soures we used to create these codes where:
+      - w3schools (2023) "HOW TO - Rounded Images". Retrived 12.10.2023 from: https://www.w3schools.com/howto/howto_css_rounded_images.asp  
+      - w3schools (2023) "HOW TO - Center Images". Retrived 12.10.2023 from: https://www.w3schools.com/howto/howto_css_image_center.asp-->
   <div class="image"> 
     <img src="img/paint.png" alt= "Hell freezes over in MSpaint!" class="center"/>
   </div>
 
 
+
+<!--In order to be able to distinguish the style the text bellow from the rest of the text in 
+  the webpage, we created the class "photo-credit", so that it could be targeted directly in the stylesheet.-->
 <p class="photo-credit "> Paint doesn`t looks like this anymore! Photo: Benj Edwards </p>
 
 	
  
   <div class = "contentbox">
+    <!--This "contentbox"-class was made in order to place the content in the div-element is placed together in a class called listbox
+	which we used in the css-file to style as a contentbox-->
+
     <p>The venerable, equally derided and beloved MS Paint app has been on a roll lately, picking up a major <br>
     redesign, dark-mode support, better zoom controls, and other fit-and-finish updates all within the last <br>
     couple of years. But today Microsoft announced that it is finally adding two features that could make the app <br>
@@ -52,6 +67,10 @@
     the two bleeding-edge and less-stable versions of Windows 11. Like other recent app updates, <br>
     this appears to require Windows 11 and won't be backported to Windows 10.</p>
 
+
+    <!--We created the "smallhead"-class in order to be able to target this particular 
+		piece of text and style it in a separate way in the stylesheet-->
+
     <p class="smallHead">Participants</p>
       <p>
         gasur2769@oslomet.no <br>
@@ -64,15 +83,18 @@
 
   </div>    
 
-
-  <!-- add link to page2 DATA1200. code: <a href= "link">hva linken skal hete</a> -->
+  <!--Since we needed to style the text containing the link between the two webpages differently than the rest of the text, 
+  we created a new class for the link.-->
+  <a class="link" href= "link">Click here to see the DATA1200 learning outcomes!</a> <!-- add link to page2 DATA1200!!-->
 
  
-  <!-- add link to page2 DATA1200. code: <a href= "link">hva linken skal hete</a> -->
+ 
 
 
 </body>
-<!--Source articletext: Cunningham, A. (2023, September 23).
+
+
+<!--The source of the article we imitated and drew text from was: Cunningham, A. (2023, September 23).
 Hell freezes over, MS Paint adds support for layers and PNG transparency.
 Retrieved October 3, 2023, from Arstechnica:
 https://arstechnica.com/gadgets/2023/09/hell-freezes-over-ms-paint-adds-support-for-layers-and-png-transparency/-->

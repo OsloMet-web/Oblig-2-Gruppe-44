@@ -1,3 +1,224 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+body {
+    background-color:white;
+}
+h1{
+    color: darkblue;
+    text-align: center;
+    font-family: verdana;
+    size: 300%;
+    font-size: 200%
+}
+h2{
+    color: darkblue;
+    text-align: center;
+    font-family: verdana;
+    size: 150%; 
+    font-size: 150%
+}
+h3 {
+    color: darkblue;
+    text-align: center;
+    font-family: verdana;
+    size: 300%;
+    font-size: 100%
+}
+h4 {
+    color: darkblue;
+    text-align: center;
+    font-family: verdana;
+    size: 300%;
+    font-size: 100%
+}
+
+h5 {
+    color: darkblue;
+    text-align: center;
+    font-family: verdana;
+    size: 500%;
+    font-size: 100%
+}
+
+p {
+    color: black;
+    text-align: center;
+    font-family: verdana;
+    size: 150%;
+} 
+
+.listhead {
+    color: darkblue;
+    text-align: left;
+    font-family: verdana;
+    font-size: 100%;
+}
+
+ul {
+    color: black;
+    text-align: left;
+    font-family: verdana;
+    size: 150%; 
+}
+
+.author {
+    color: orange;
+    font-family: verdana;
+    size: 150%;
+    cursor: pointer;
+}
+
+.author:hover {
+    color: grey;
+}
+
+.date {
+    color: black;
+    font-family: verdana;
+    size: 150%;
+}
+
+
+.contentbox {
+    width: 500px;
+    padding: 30px;
+    border: 20px;
+    margin: 20px;
+    text-align: center;    
+}
+
+.listbox {
+    width: 500px;
+    padding: 5px;
+    border: 10px;
+    margin: 10px;
+    text-align: center;  
+}
+/*transform: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale#syntax*/
+img { 
+    size: 300px;
+    border-radius: 8px;     /*Should add figure and figcaption here*/
+    transform: scale(1);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+
+.box {
+    background-color: beige;
+    border-color: white;
+    width: 1130px;
+    padding: 50px;
+    border: 5px solid gray;
+    margin: 20;
+    text-align-last: center;
+} 
+
+
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 0d98d5ee4d6455532ca2342499ea8b42415b6e5b
+
+
+body {
+    background-color:lightgrey;
+}
+
+h1{
+    color: darkblue;
+    text-align: center;
+    font-family: verdana;
+    size: 300%;
+}
+h2{
+    color: darkblue;
+    text-align: center;
+    font-family: verdana;
+    size: 150%;
+}
+h3 {
+    color: darkblue;
+    text-align: center;
+    font-family: verdana;
+    size: 300%;
+}
+h4 {
+    color: darkblue;
+    text-align: center;
+    font-family: verdana;
+    size: 300%;
+}
+
+h5 {
+    color: darkblue;
+    text-align: center;
+    font-family: verdana;
+    size: 500%;
+}
+
+p{
+    color: black;
+    text-align: left;
+    font-family: verdana;
+    size: 150%;
+}  
+
+ul {
+    color: black;
+    text-align: left;
+    font-family: verdana;
+    size: 150%; 
+}
+
+p #id mcunning {
+    color: orange;
+    font-family: verdana;
+    size: 150%;
+}
+
+
+img {
+    size: 300px;
+    border-radius: 8px;
+    
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.box {
+    background-color: beige;
+    border-color: white;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+} 
+
+footer p1 {
+    text-decoration-line: bold;
+    size: 150%;
+    color: darkblue;
+    text-align: right;
+    font-family: verdana;
+
+}
+footer ul {
+    size: 80%;
+    color: black;
+    text-align: left;
+    font-family: verdana;
+}
+=======
 
 body {
     background-color:white;
@@ -135,3 +356,8 @@ footer ul {
     position: fixed;
     
 }
+>>>>>>> d74090ddcfeb22f2167ba340bdced0d20f8f9d6d
+<<<<<<< HEAD
+>>>>>>> 0d98d5ee4d6455532ca2342499ea8b42415b6e5b
+=======
+>>>>>>> 0d98d5ee4d6455532ca2342499ea8b42415b6e5b

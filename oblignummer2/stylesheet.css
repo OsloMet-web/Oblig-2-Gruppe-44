@@ -121,8 +121,8 @@ img {
 .photo-credit {
     color: lightgrey;
     font-family: verdana;
+    text-align: left;
     size: 150%;
-    cursor: pointer;
 }
     
 

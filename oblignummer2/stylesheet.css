@@ -7,28 +7,24 @@ h1{
     color: darkblue;
     text-align: center;
     font-family: verdana;
-    size: 300%;
     font-size: 200%
 }
 h2{
     color: darkblue;
     text-align: center;
     font-family: verdana;
-    size: 150%; 
     font-size: 150%
 }
 h3 {
     color: darkblue;
     text-align: center;
     font-family: verdana;
-    size: 300%;
     font-size: 100%
 }
 h4 {
     color: darkblue;
     text-align: center;
     font-family: verdana;
-    size: 300%;
     font-size: 100%
 }
 
@@ -36,7 +32,6 @@ h5 {
     color: darkblue;
     text-align: center;
     font-family: verdana;
-    size: 500%;
     font-size: 100%
 }
 
@@ -44,7 +39,7 @@ p {
     color: black;
     text-align: center;
     font-family: verdana;
-    size: 150%;
+    font-size: 150%;
 } 
 
 .listhead {
@@ -58,7 +53,7 @@ ul {
     color: black;
     text-align: left;
     font-family: verdana;
-    size: 150%; 
+    font-size: 150%; 
 }
 
 .author {

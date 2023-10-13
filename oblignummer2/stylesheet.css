@@ -118,4 +118,12 @@ img {
     text-align-last: center;
 } 
 
+.photo-credit {
+    color: lightgrey;
+    font-family: verdana;
+    size: 150%;
+    cursor: pointer;
+}
+    
+
 

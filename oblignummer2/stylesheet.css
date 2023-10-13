@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 body {
@@ -92,3 +93,142 @@ footer ul {
     text-align: left;
     font-family: verdana;
 }
+=======
+
+body {
+    background-color:white;
+}
+h1{
+    color: darkblue;
+    text-align: center;
+    font-family: verdana;
+    size: 300%;
+    font-size: 200%
+}
+h2{
+    color: darkblue;
+    text-align: center;
+    font-family: verdana;
+    size: 150%; 
+    font-size: 150%
+}
+h3 {
+    color: darkblue;
+    text-align: center;
+    font-family: verdana;
+    size: 300%;
+    font-size: 100%
+}
+h4 {
+    color: darkblue;
+    text-align: center;
+    font-family: verdana;
+    size: 300%;
+    font-size: 100%
+}
+
+h5 {
+    color: darkblue;
+    text-align: center;
+    font-family: verdana;
+    size: 500%;
+    font-size: 100%
+}
+
+p {
+    color: black;
+    text-align: center;
+    font-family: verdana;
+    size: 150%;
+} 
+
+p1 {
+    color: darkblue;
+    font-family: verdana;
+    font-size: 100%;
+}
+
+ul {
+    color: black;
+    text-align: left;
+    font-family: verdana;
+    size: 150%; 
+}
+
+.author {
+    color: orange;
+    font-family: verdana;
+    size: 150%;
+    cursor: pointer;
+}
+
+.author:hover {
+    color: grey;
+}
+
+.date {
+    color: black;
+    font-family: verdana;
+    size: 150%;
+}
+
+
+.contentbox {
+    width: 500px;
+    padding: 30px;
+    border: 20px;
+    margin: 20px;
+    text-align: center;    
+}
+
+.listbox {
+    width: 500px;
+    padding: 5px;
+    border: 10px;
+    margin: 10px;
+    text-align: center;  
+}
+/*transform: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale#syntax*/
+img { 
+    size: 300px;
+    border-radius: 8px;     /*Should add figure and figcaption here*/
+    transform: scale(1);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.box {
+    background-color: beige;
+    border-color: white;
+    width: 1130px;
+    padding: 50px;
+    border: 5px solid gray;
+    margin: 20;
+    text-align-last: center;
+} 
+
+footer {
+    text-decoration-line: bold;
+    size: 150%;
+    color: darkblue;
+    background-color: white;
+    text-align: right;
+    font-family: verdana;
+    position: fixed;
+    transform: scale(1);
+}
+
+footer ul {
+    size: 80%;
+    color: black;
+    background-color: white;
+    text-align: left;
+    font-family: verdana;
+    position: fixed;
+    
+}
+>>>>>>> d74090ddcfeb22f2167ba340bdced0d20f8f9d6d

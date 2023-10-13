@@ -58,6 +58,10 @@ p {
     font-size: 100%; 
 }
 
+
+/*The codes for the ".author" and ".author:hover"-classes 
+makes the text written here change color between orange and grey 
+when the text is pointed at.*/
 .author {
     color: orange;
     font-family: verdana;
@@ -69,12 +73,20 @@ p {
     color: grey;
 }
 
+
+
 .date {
     color: black;
     font-family: verdana;
     size: 150%;
 }
 
+
+/*This styling of the ".contentbox" and ".listbox"-clases gives instructions 
+on how lagre the boxes should be and that it is placed in the center of the 
+webpage. The ".contentbox"-class underneath is the styling of the box defined in
+the ArstenchinicaArticle2.html. While the ".listbox"-class contains the styling of 
+the box defined in pageNummer2.html*/
 
 .contentbox {
     -moz-box-align: center;
@@ -93,14 +105,21 @@ p {
     margin: 10px;
     text-align: center;  
 }
-/*transform: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale#syntax*/
+
+
+
+
+/* Underneath the "img"-element and and the ".center"-class from ArstenchinicaArticle2.html
+is used to style the image in the center of the webpage, give it a proper size
+and to make it scalable. We used the following source:
+mdn web docs(2023). "Scale". Mozilla Developer. 
+Retrived 12.10.2023 from: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale#syntax*/
 
 img { 
     size: 300px;
-    border-radius: 8px;     /*Should add figure and figcaption here*/
+    border-radius: 8px;  
     transform: scale(1);
 }
-
 
 .center {
     display: block;

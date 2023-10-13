@@ -76,7 +76,7 @@ ul {
 
 .contentbox {
     -moz-box-align: center;
-    width: 500px;
+    box-sizing: 700px;
     padding: 30px;
     border: 20px;
     margin: 20px;
@@ -84,7 +84,8 @@ ul {
 }
 
 .listbox {
-    width: 500px;
+    -moz-box-align: center;
+    box-sizing: 700px;
     padding: 5px;
     border: 10px;
     margin: 10px;

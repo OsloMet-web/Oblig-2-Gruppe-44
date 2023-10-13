@@ -3,6 +3,7 @@
 body {
     background-color:white;
 }
+
 h1{
     color: darkblue;
     text-align: center;
@@ -42,15 +43,16 @@ p {
     font-size: 100%;
 } 
 
-.listhead {
+.smallHead {
     color: darkblue;
-    text-align: left;
+    text-align: center;
     font-family: verdana;
-    font-size: 100%;
+    font-size: 150%;
 }
 
-ul {
+.list {
     color: black;
+    display: inline-block;
     text-align: left;
     font-family: verdana;
     font-size: 100%; 
@@ -92,11 +94,14 @@ ul {
     text-align: center;  
 }
 /*transform: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale#syntax*/
+
 img { 
     size: 300px;
     border-radius: 8px;     /*Should add figure and figcaption here*/
     transform: scale(1);
 }
+
+
 .center {
     display: block;
     margin-left: auto;

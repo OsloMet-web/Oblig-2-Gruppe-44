@@ -133,7 +133,7 @@ the box defined in pageNummer2.html*/
 
 
 
-/* Underneath the "img"-element and and the ".center"-class from ArstenchinicaArticle2.html
+/* Underneath the "img"- and the "screenshot"-elements and and the ".center"- and ".center2"-classes from ArstenchinicaArticle2.html
 is used to style the image in the center of the webpage, give it a proper size
 and to make it scalable. 
 
@@ -158,6 +158,19 @@ img {
     width: 90%;
 }
 
+
+screenshot { 
+    size: 300px;
+    border-radius: 8px;  
+    transform: scale(1);
+}
+
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
 
 
 

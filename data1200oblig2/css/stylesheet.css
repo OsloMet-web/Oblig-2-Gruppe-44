@@ -87,7 +87,7 @@ p {
 makes the text written here change color between orange and grey 
 when the text is pointed at.*/
 .author {
-    color: orange;
+    color: fuchsia;
     font-family: verdana;
     size: 150%;
     cursor: pointer;

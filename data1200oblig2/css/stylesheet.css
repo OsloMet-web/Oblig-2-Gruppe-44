@@ -56,9 +56,16 @@ p {
 from the first page and to make it look like the official subject page*/
 
 .header{
+    grid-column: 1/span 12;
+        grid-column-start:1;
+        grid-column-end: span 12;
+    width:100%;
+    align-items:center;
+    display:flex;
+    height: 80px;
     padding: 60px;
     text-align: left;
-    background-color: orange;
+    background-color: rgb(255, 128, 0);
     color: black;
     font-size: 30px;
 }
@@ -67,14 +74,10 @@ from the first page and to make it look like the official subject page*/
     text-align: left;
     color: black;
     font-size: 100%;
+    font-family: "Moderat","Avenir","Helvetica","Arial",sans-serif;
+    font-weight: bold;
 }
 
-.headertext2{
-    text-align: center;
-    color: black;
-    font-size: 100%;
-    font-family: "Moderat","Avenir","Helvetica","Arial",sans-serif;
-}
 
 details{
     user-select: none;
@@ -82,7 +85,7 @@ details{
 
 details>summary span.icon{
     width: 24px;
-    
+
 }
 
 

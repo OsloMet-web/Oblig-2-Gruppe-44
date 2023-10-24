@@ -46,7 +46,7 @@ p {
 
 
 .photo-credit {
-    color: purple;
+    color: darkmagenta;
     font-family: verdana;
     text-align: left;
     size: 150%;
@@ -59,8 +59,8 @@ Which we used Google crome and developers tools to access.*/
 
 .header{
     grid-column: 1/span 12;
-        grid-column-start:1;
-        grid-column-end: span 12;
+    grid-column-start:1;
+    grid-column-end: span 12;
     width:100%;
     align-items:center;
     display:flex;
@@ -81,7 +81,8 @@ Which we used Google crome and developers tools to access.*/
 }
 
 
-/*We followed a guide to make 'Learning outcomes' a collapsible section
+/*We followed a guide to make 'Learning outcomes' a collapsible section that changes the cursor to a pointer
+and gives the icon(+) a rotating transition.
 Source: Finneran, J. (2020): Creating a collapsible section with nothing but HTML.
 Retrieved 24.10.23 from
 https://dev.to/jordanfinners/creating-a-collapsible-section-with-nothing-but-html-4ip9 */
@@ -89,21 +90,25 @@ details{
     user-select: none;
 }
 
-details>summary span.icon{
+details>summary span.nudge{
     width: 24px;
     height: 24px;
     transition: all 0.3s;
-    margin-left: auto;
-}
-
-details[open] summary span.icon {
-    transform: rotate(180deg);
+    text-align: auto;
 }
 
 summary {
     color: black;
     font-family: "Moderat","Avenir","Helvetica","Arial",sans-serif;
+    display: flex;
+    cursor: pointer;
     font-size: 150%
+}
+
+summary:hover {
+    background-color: lightgray;
+    height: 24px;
+    width: summary;
 }
 
 summary::-webkit-details-marker {
@@ -166,7 +171,7 @@ summary::-webkit-details-marker {
 makes the text written here change color between orange and grey 
 when the text is pointed at.*/
 .author {
-    color: fuchsia;
+    color: darkmagenta;
     font-family: verdana;
     size: 150%;
     cursor: pointer;

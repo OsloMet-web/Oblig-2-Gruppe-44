@@ -10,36 +10,46 @@
 	Chris, K. (2022, 14.06) "How to Link CSS to HTML - Stylesheet File Linking". freeCodeCamp.org. Retrived 12.10.2023 
 	from:https://www.freecodecamp.org/news/how-to-link-css-to-html/-->
 	<link rel="stylesheet" type="text/css" href="/data1200oblig2/css/stylesheet.css"/> 
+
+	<section class="header"> 
+		<h1 class="page2headings">DATA1200</h1>
+	</section>
 	
 </head>
 
 <body> 
-	<h1>DATA1200</h1>
+	
 
 	<!--Here we created a class to place the content in the div-element is placed together in a class called listbox
 	which we used in the css-file to style as a contentbox-->
-	<div class="listbox"> 
+	<section class="listbox"> 
 		
-		<h2>Learning outcomes</h2>
+		<section class="collapsible">
+			<button type="button" class="collapsible"> 
+				<h2 class="page2headings">Learning outcomes</h2> 
+			</button>
+			
+		</section>
+	
 		
-		<p>After completing this course, the student has defined the following learning outcomes in the form of knowledge, skills and general competence:</p>
+		<p class="page2content">After completing this course, the student has defined the following learning outcomes in the form of knowledge, skills and general competence:</p>
 
-		<h3>Knowledge</h3>
+		<h3 class="page2headings">Knowledge</h3>
 
 
 
 		<!--To distinguish the list items from the rest of the text in the css
 		we placed all the lists in this webpage in a class called "list"-->
-		<p>Students:</p>
+		<p class="page2content">Students:</p>
 			<ul class="list"> 
 				<li>Knows the central role that the web and the internet have in modern data processing</li>
 				<li>Is familiar with relevant programming tools and repositories with version control</li>
 				<li>Has basic knowledge of and experience with collaboration in software development as a form of work</li>
 			</ul>
 
-		<h4>Skills</h4>
+		<h4 class="page2headings">Skills</h4>
 
-		<p>Students:</p>
+		<p class="page2content">Students:</p>
 			<ul class="list">
 				<li>Can create user-friendly and universally designed solutions in line with legislation</li>
 				<li>Build webpages with the key technologies for web (HTML, CSS)</li>
@@ -47,9 +57,9 @@
 				<li>Can plan, organize and implement smaller IT projects</li>
 			</ul>
 
-		<h5>General competence</h5>
+		<h5 class="page2headings">General competence</h5>
 
-		<p>Students:</p>
+		<p class="page2content">Students:</p>
 			<ul class="list">
 				<li>Can communicate the result of a development work</li>
 				<li>Can collaborate in groups</li>
@@ -59,21 +69,21 @@
 		<!--We created the "smallhead"-class in order to be able to target this particular 
 		piece of text and style it in a separate way in the stylesheet-->
 		<p class="smallHead">Participants</p>
-		<p>
+		<p class="page2content">
 			gasur2769@oslomet.no <br>
 			odwil9217@oslomet.no <br>
 			jeudd6632@oslomet.no <br>
 		</p>  
 	
-	</div>	
+	</section>	
 	
 <!--Since we needed to style the text containing the link between the two webpages differently than the rest of the text, 
   we created a new class for the link.-->
   <a class="link" href="http://127.0.0.1:5500/data1200oblig2/ArstechnicaArticle2.html">Click here for a fun article!</a> <!-- add link to page1 ArstechnicaArticle!!-->
 
-	<div class="screenshot"> 
+	<section class="screenshot"> 
 		<img src="/data1200oblig2/img/Accessibility.test.DATA1200.png" alt= "Screenshot of accessibility test" class ="center2"/>
-	  </div>
+	  </section>
 
 </body>
 

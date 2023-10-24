@@ -63,15 +63,28 @@ from the first page and to make it look like the official subject page*/
     font-size: 30px;
 }
 
-.collapsible{
-    background-color: white;
-    border-color: grey; 
-    padding: 18px;
-    width: 100%;
+.headertext1{
     text-align: left;
-    font-size: 15px;
+    color: black;
+    font-size: 100%;
+}
+
+.headertext2{
+    text-align: center;
+    color: black;
+    font-size: 100%;
     font-family: "Moderat","Avenir","Helvetica","Arial",sans-serif;
 }
+
+details{
+    user-select: none;
+}
+
+details>summary span.icon{
+    width: 24px;
+    
+}
+
 
 .page2headings{
     color: black;

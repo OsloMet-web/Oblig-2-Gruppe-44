@@ -14,57 +14,36 @@ to make a separated heading for the participants list.*/
 
 h1{
     color: darkblue;
-    text-align: center;
+    text-align: left;
     font-family: verdana;
     font-size: 230%
 }
 h2{
     color: darkblue;
-    text-align: center;
+    text-align: left;
     font-family: verdana;
     font-size: 200%
 }
 h3 {
     color: darkblue;
-    text-align: center;
+    text-align: left;
     font-family: verdana;
     font-size: 150%
 }
 h4 {
     color: darkblue;
-    text-align: center;
-    font-family: verdana;
-    font-size: 150%
-}
-
-h5 {
-    color: darkblue;
-    text-align: center;
+    text-align: left;
     font-family: verdana;
     font-size: 150%
 }
 
 p {
     color: black;
-    text-align: center;
+    text-align: left;
     font-family: verdana;
     font-size: 100%;
 } 
 
-.smallHead {
-    color: darkblue;
-    text-align: center;
-    font-family: verdana;
-    font-size: 120%;
-}
-
-.list {
-    color: black;
-    display: inline-block;
-    text-align: left;
-    font-family: verdana;
-    font-size: 100%; 
-}
 
 .photo-credit {
     color: purple;
@@ -72,11 +51,65 @@ p {
     text-align: left;
     size: 150%;
 }
-    
+
+/*The code underneath styles the second page specifically to make it distinct
+from the first page and to make it look like the official subject page*/
+
+.header{
+    padding: 60px;
+    text-align: left;
+    background-color: orange;
+    color: black;
+    font-size: 30px;
+}
+
+.collapsible{
+    background-color: white;
+    border-color: grey; 
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    font-family: "Moderat","Avenir","Helvetica","Arial",sans-serif;
+}
+
+.page2headings{
+    color: black;
+    font-family: "Moderat","Avenir","Helvetica","Arial",sans-serif;
+    display: flex;
+    font-size: 150%
+
+} 
+
+.page2content{
+    color: black;
+    font-family: "Moderat","Avenir","Helvetica","Arial",sans-serif;
+    display: flex;
+}
+   
+
+.smallHead {
+    color: black;
+    text-align: left;
+    font-family: "Moderat","Avenir","Helvetica","Arial",sans-serif;;
+    font-size: 120%;
+}
+
+.list {
+    color: black;
+    display: inline-block;
+    text-align: left;
+    font-family: "Moderat","Avenir","Helvetica","Arial",sans-serif;;
+    font-size: 100%; 
+}
+
+
+
+
 /*This code styles the link between the two webpages.*/
 .link{
     display: block;
-    text-align: center;
+    text-align: left;
     font-size: 100%;
     font-family: verdana;
 }
@@ -118,7 +151,7 @@ the box defined in pageNummer2.html*/
     padding: 30px;
     border: 20px;
     margin: 20px;
-    text-align: center;    
+    text-align: left;    
 }
 
 .listbox {
@@ -127,7 +160,7 @@ the box defined in pageNummer2.html*/
     padding: 5px;
     border: 10px;
     margin: 10px;
-    text-align: center;  
+    text-align: left;  
 }
 
 

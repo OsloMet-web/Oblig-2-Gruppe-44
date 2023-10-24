@@ -53,7 +53,9 @@ p {
 }
 
 /*The code underneath styles the second page specifically to make it distinct
-from the first page and to make it look like the official subject page*/
+from the first page and to make it look like the official subject page. The code of header-class is inspired 
+form the one written on the official web https://student.oslomet.no/en/studier/-/studieinfo/emne/DATA1200/2023/HØST 
+Which we used Google crome and developers tools to access.*/
 
 .header{
     grid-column: 1/span 12;

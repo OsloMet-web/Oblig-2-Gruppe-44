@@ -70,7 +70,7 @@ from the first page and to make it look like the official subject page*/
     font-size: 30px;
 }
 
-.headertext1{
+.headertext{
     text-align: left;
     color: black;
     font-size: 100%;
@@ -88,6 +88,12 @@ details>summary span.icon{
 
 }
 
+.page2mainheading{
+    color: black;
+    font-family: "Moderat","Avenir","Helvetica","Arial",sans-serif;
+    display: flex;
+    font-size: 300%
+}
 
 .page2headings{
     color: black;

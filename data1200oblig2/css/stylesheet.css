@@ -5,7 +5,7 @@ body {
 }
 
 /*The code of the elements h1-h5, p, and of the classes ".smallHead", ".list" and ".photocredit" 
-defines the how we have styled the text in our two webpages. Because we wanted to have similar styling of
+defines how we have styled the text in our two webpages. Because we wanted to have similar styling of
 the headings and most of the paragraphs in the two pages, we choose to reuse the same element-names and not divide them into classes. 
 However, in order to distinguish some of the text from the rest and give it other styling, we created a class for the caption underneath 
 the image in our "ArstechnicaArticle2.html"-page. We made the class ".list" to style the lists of "pageNummer2.html" and the 
@@ -54,7 +54,7 @@ p {
 
 /*The code underneath styles the second page specifically to make it distinct
 from the first page and to make it look like the official subject page. The code of header-class is inspired 
-form the one written on the official web https://student.oslomet.no/en/studier/-/studieinfo/emne/DATA1200/2023/HØST 
+from the one written on the official web https://student.oslomet.no/en/studier/-/studieinfo/emne/DATA1200/2023/HØST 
 Which we used Google crome and developers tools to access.*/
 
 .header{
@@ -155,8 +155,6 @@ summary::-webkit-details-marker {
 }
 
 
-
-
 /*This code styles the link between the two webpages.*/
 .link{
     display: block;
@@ -164,7 +162,6 @@ summary::-webkit-details-marker {
     font-size: 100%;
     font-family: verdana;
 }
-
 
 
 /*The codes for the ".author" and ".author:hover"-classes 
@@ -181,8 +178,7 @@ when the text is pointed at.*/
     color: black;
 }
 
-
-
+/*Date is specified to avoid this text getting the same ":hover" treatment as ".author" got.*/
 .date {
     color: black;
     font-family: verdana;
@@ -190,7 +186,7 @@ when the text is pointed at.*/
 }
 
 
-/*This styling of the ".contentbox" and ".listbox"-clases gives instructions 
+/*The styling of ".contentbox" and ".listbox"-clases gives instructions 
 on how lagre the boxes should be and that it is placed in the center of the 
 webpage. The ".contentbox"-class underneath is the styling of the box defined in
 the ArstenchinicaArticle2.html. While the ".listbox"-class contains the styling of 
@@ -213,8 +209,6 @@ the box defined in pageNummer2.html*/
     margin: 10px;
     text-align: left;  
 }
-
-
 
 
 /* Underneath the "img"- and the "screenshot"-elements and and the ".center"- and ".center2"-classes from ArstenchinicaArticle2.html
@@ -243,7 +237,7 @@ img {
 }
 
 
-screenshot { 
+.screenshot { 
     size: 300px;
     border-radius: 8px;  
     transform: scale(1);

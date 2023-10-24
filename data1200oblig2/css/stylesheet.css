@@ -53,28 +53,33 @@ p {
 }
 
 /*The code underneath styles the second page specifically to make it distinct
-from the first page and to make it look like the official subject page*/
+from the first page and to make it look like the official subject page. The code of header-class is inspired 
+form the one written on the official web https://student.oslomet.no/en/studier/-/studieinfo/emne/DATA1200/2023/HØST 
+Which we used Google crome and developers tools to access.*/
 
 .header{
+    grid-column: 1/span 12;
+        grid-column-start:1;
+        grid-column-end: span 12;
+    width:100%;
+    align-items:center;
+    display:flex;
+    height: 80px;
     padding: 60px;
     text-align: left;
-    background-color: orange;
+    background-color: rgb(255, 128, 0);
     color: black;
     font-size: 30px;
 }
 
-.headertext1{
+.headertext{
     text-align: left;
     color: black;
     font-size: 100%;
+    font-family: "Moderat","Avenir","Helvetica","Arial",sans-serif;
+    font-weight: bold;
 }
 
-.headertext2{
-    text-align: center;
-    color: black;
-    font-size: 100%;
-    font-family: "Moderat","Avenir","Helvetica","Arial",sans-serif;
-}
 
 /*We followed a guide to make 'Learning outcomes' a collapsible section
 Source: Finneran, J. (2020): Creating a collapsible section with nothing but HTML.
@@ -105,6 +110,16 @@ summary::-webkit-details-marker {
     display: none;
 
 }
+
+}
+
+.page2mainheading{
+    color: black;
+    font-family: "Moderat","Avenir","Helvetica","Arial",sans-serif;
+    display: flex;
+    font-size: 300%
+}
+
 .page2headings{
     color: black;
     font-family: "Moderat","Avenir","Helvetica","Arial",sans-serif;

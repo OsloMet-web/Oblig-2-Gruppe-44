@@ -76,16 +76,35 @@ from the first page and to make it look like the official subject page*/
     font-family: "Moderat","Avenir","Helvetica","Arial",sans-serif;
 }
 
+/*We followed a guide to make 'Learning outcomes' a collapsible section
+Source: Finneran, J. (2020): Creating a collapsible section with nothing but HTML.
+Retrieved 24.10.23 from
+https://dev.to/jordanfinners/creating-a-collapsible-section-with-nothing-but-html-4ip9 */
 details{
     user-select: none;
 }
 
 details>summary span.icon{
     width: 24px;
-    
+    height: 24px;
+    transition: all 0.3s;
+    margin-left: auto;
 }
 
+details[open] summary span.icon {
+    transform: rotate(180deg);
+}
 
+summary {
+    color: black;
+    font-family: "Moderat","Avenir","Helvetica","Arial",sans-serif;
+    font-size: 150%
+}
+
+summary::-webkit-details-marker {
+    display: none;
+
+}
 .page2headings{
     color: black;
     font-family: "Moderat","Avenir","Helvetica","Arial",sans-serif;
